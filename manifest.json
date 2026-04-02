@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "Right-click any image to download it converted to AVIF format.",
   "permissions": ["contextMenus", "downloads"],
+  "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "dist/background.js",
     "type": "module"
